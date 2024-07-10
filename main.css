@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: blanchedalmond;
-}
+} */
 
 button {
   height: 50px;
@@ -10,7 +10,7 @@ button {
 }
 
 button:hover{
-  background-color: orangered;
+  background-color: #ebebeb;
 }
 
 #calculator-main {
@@ -26,6 +26,7 @@ button:hover{
   grid-row: 1;
   background-color: black;
   color: white;
+  text-align: right;
   width: 400px;
 }
 
