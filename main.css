@@ -1,17 +1,14 @@
-/* body {
-  background-color: blanchedalmond;
-} */
+
 
 button {
   height: 50px;
   font-size: 24px;
   border: solid black 2px;
-  
+  background-color: #d8d9db;
+  display: inline-block;
+  padding: 1px 5px;
 }
 
-button:hover{
-  background-color: #ebebeb;
-}
 
 #calculator-main {
   max-width: 400px;
@@ -19,6 +16,27 @@ button:hover{
   grid-template-columns: repeat(4, 1fr) ;
   grid-template-rows: repeat(6, 1fr);
   gap: 0;
+  
+
+  .active.btn:hover{
+    background-color: #bbbcbe;
+    display: inline-block;
+    padding: 1px 5px;
+  }
+
+  .function {
+    background-color: #df974c;
+    display: inline-block;
+    padding: 1px 5px;
+  }
+  
+  .function:hover {
+    background-color: #dfb07e;
+    display: inline-block;
+    padding: 1px 5px;
+  }
+
+
 }
 
 #display-btn {
@@ -105,6 +123,7 @@ button:hover{
   grid-column: 1 / 4;
   grid-row: 6;
 }
+
 #btn-equal {
   grid-column: 4 / 5;
   grid-row: 6;
